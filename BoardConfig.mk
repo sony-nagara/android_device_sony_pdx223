@@ -27,6 +27,12 @@ BOARD_KERNEL_CMDLINE += buildproduct=pdx223
 
 TARGET_KERNEL_CONFIG += vendor/sony/pdx223.config
 
+# Use prebuilt stock DTBO image
+BOARD_PREBUILT_DTBOIMAGE := kernel/sony/sm8450-devicetrees-blobs/pdx223/dtbo/dtbo.img
+
+# Use prebuilt stock DTB directory
+BOARD_PREBUILT_DTBIMAGE_DIR := kernel/sony/sm8450-devicetrees-blobs/pdx223/dtb/
+
 # Add Sailfish kernel config if SAILFISH_BUILD is defined in environment
 ifneq ($(strip $(shell echo $$SAILFISH_BUILD)),)
 TARGET_KERNEL_CONFIG += vendor/sony/sailfish.config
