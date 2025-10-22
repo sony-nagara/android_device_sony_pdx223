@@ -15,24 +15,6 @@ vendor/etc/zoom_noise_reduction/znr_default_44k.tbl
 vendor/etc/zoom_noise_reduction/znr_default_48k.tbl
 vendor/etc/zoom_noise_reduction/znr_parameter.xml
 
-# Cirrus Firmware
-vendor/firmware/L-cs35l41-dsp1-spk-cali.bin
-vendor/firmware/L-cs35l41-dsp1-spk-cali.wmfw
-vendor/firmware/L-cs35l41-dsp1-spk-prot.bin
-vendor/firmware/L-cs35l41-dsp1-spk-prot.wmfw
-vendor/firmware/R-cs35l41-dsp1-spk-cali.bin
-vendor/firmware/R-cs35l41-dsp1-spk-cali.wmfw
-vendor/firmware/R-cs35l41-dsp1-spk-prot.bin
-vendor/firmware/R-cs35l41-dsp1-spk-prot.wmfw
-vendor/firmware/cs40l20.bin
-vendor/firmware/cs40l25a_a2h.bin
-vendor/firmware/cs40l25a_a2h.wmfw
-vendor/firmware/cs40l25a_a2h1.bin
-vendor/firmware/cs40l25a_a2h2.bin
-vendor/firmware/cs40l25a_a2h3.bin
-vendor/firmware/cs40l25a_cal.bin
-vendor/firmware/cs40l25a_cal.wmfw
-
 # Camera
 vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service;DISABLE_CHECKELF
 vendor/camera/CAMINO_FW_DATA_AF_0x0104.dat
@@ -592,6 +574,24 @@ vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/CAMERA_ICP_480.elf
+
+# Cirrus Firmware
+vendor/firmware/L-cs35l41-dsp1-spk-cali.bin
+vendor/firmware/L-cs35l41-dsp1-spk-cali.wmfw
+vendor/firmware/L-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/L-cs35l41-dsp1-spk-prot.wmfw
+vendor/firmware/R-cs35l41-dsp1-spk-cali.bin
+vendor/firmware/R-cs35l41-dsp1-spk-cali.wmfw
+vendor/firmware/R-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/R-cs35l41-dsp1-spk-prot.wmfw
+vendor/firmware/cs40l20.bin
+vendor/firmware/cs40l25a_a2h.bin
+vendor/firmware/cs40l25a_a2h.wmfw
+vendor/firmware/cs40l25a_a2h1.bin
+vendor/firmware/cs40l25a_a2h2.bin
+vendor/firmware/cs40l25a_a2h3.bin
+vendor/firmware/cs40l25a_cal.bin
+vendor/firmware/cs40l25a_cal.wmfw
 
 # Display (HDR)
 vendor/etc/libhdr_somc.xml
